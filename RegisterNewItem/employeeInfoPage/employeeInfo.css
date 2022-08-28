@@ -11,14 +11,18 @@
     font-size: 20px;
     line-height: 24px;
 
-    /* შავი/700 */
+  
 
     color: #232323;
 }
 
+h1 {
+    left: 700px;
+}
+
 .employeesInfo1, .employeesInfo2 {
     position: absolute;
-    width: 185px;
+    
     height: 0px;
     
     top: 130px;
@@ -27,11 +31,13 @@
 }
 
 .employeesInfo1 {
-    left: 690px;
+    left: 671px;
+    width: 185px;
 }
 
 .employeesInfo2 {
-    left: 990px;
+    left: 973px;
+    width: 263px;
 }
 
 .tablinks2 {
@@ -47,12 +53,12 @@
     font-size: 20px;
     line-height: 24px;
 
-    /* შავი/700 */
+
 
     color: #232323;
 }
 
-/* Style the tab */
+
 .tab {
     overflow: hidden;
     border: 1px solid #ccc;
@@ -60,7 +66,7 @@
     align-items: center;
   }
   
-  /* Style the buttons that are used to open the tab content */
+ 
   .tab button {
     background-color: inherit;
     float: left;
@@ -70,12 +76,8 @@
     padding: 14px 16px;
     transition: 0.3s;
   }
-  /* Create an active/current tablink class */
-  .tab button.active {
-    background-color: #ccc;
-  }
   
-  /* Style the tab content */
+  
   .tabcontent {
     display: none;
     border: 1px solid #ccc;
