@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="info.css">
+    </head>
+    <body>
+        <div class="tab">
+            <button class="tablinks1" onclick="openTab(event, 'employeeInfo')">თანამშრომლის ინფო</button>
+            <hr class="employeesInfo1" style="display: block;">
+            <button class="tablinks2" onclick="openTab(event, 'laptopProperties')">ლეპტოპის მახასიათებლები</button>
+            <hr class="employeesInfo2" style="display: none;">
+          </div>
+          
+          
+          <div id="employeeInfo" class="tabcontent" style="display: block;">
+            <form action="" class="form">
+              <canvas class="photoPlace"></canvas>
+              <p class="laptopPhotoText">ჩააგდე ან ატვირთე ლეპტოპის ფოტო</p>
+              <button class="uploadPhoto">ატვირთე</button>
+            </form>
+          </div>
+          
+          <div id="laptopProperties" class="tabcontent" style="display: none;">
+            <form action="" class="form">
+              <canvas class="photoPlace"></canvas>
+              <p class="laptopPhotoText">ჩააგდე ან ატვირთე ლეპტოპის ფოტო</p>
+              <button class="uploadPhoto">ატვირთე</button>
+            </form>
+          </div>
+        <script src="info.js"></script>
+    </body>
+</html>
+

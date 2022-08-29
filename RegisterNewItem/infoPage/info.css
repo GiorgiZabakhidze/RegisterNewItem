@@ -1,0 +1,148 @@
+.tablinks1{
+    position: absolute;
+    width: 228px;
+    height: 20px;
+    left: calc(50% - 561px/2 - 0.5px);
+    top: 100px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 5px;
+    color: #232323;
+}
+
+
+
+
+.employeesInfo1, .employeesInfo2 {
+    position: absolute;
+    height: 0px; 
+    top: 130px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+}
+
+.employeesInfo1 {
+    left: calc(50% - 505px/2 - 0.5px);
+    width: 165px;
+}
+
+.employeesInfo2 {
+    left: calc(50% + 45px);
+    width: 228px;
+}
+
+.tablinks2 {
+    position: absolute;
+    width: 289px;
+    height: 24px;
+    left: calc(50% - 561px/2 - 0.5px + 228px + 66px);
+    top: 100px;
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 5px;
+
+
+
+    color: #232323;
+}
+
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    align-items: center;
+  }
+  
+ 
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+
+
+.laptopPhotoText {
+    position: absolute;
+    width: 195px;
+    height: 76px;
+    margin-left: 516px;;
+    top: 175px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 38px;
+    /* or 190% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* ლურჯი/700 */
+
+    color: #4386A9;
+}
+
+.uploadPhoto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 18px 60px;
+    margin-left: 496px;
+    color: #ffffff;
+    position: absolute;
+    width: 233px;
+    height: 60px;
+    top: 316px;
+    
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    display:table-cell;
+    vertical-align:middle;
+
+    background: #62A1EB;
+    border-radius: 8px;
+    padding: 0;
+    border: none;
+}
+
+.form {
+    vertical-align:middle;
+    position: absolute;
+    height: 1571px;
+    left: 347px;
+    right: 347px;
+    top: 157px;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 18px;
+}
+
+.photoPlace {
+    box-sizing: border-box;
+    position: absolute;
+    width: 878px;
+    height: 423px;
+    left: 174px;
+    right: 174px;
+    top: 68px;
+
+    background: #F7F7F7;
+    /* ლურჯი/700 */
+
+    border: 2px dashed #4386A9;
+    border-radius: 18px;
+}

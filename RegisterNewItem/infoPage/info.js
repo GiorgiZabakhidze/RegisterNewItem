@@ -1,4 +1,4 @@
-function openCity(evt, cityName) {
+function openTab(evt, tab) {
     // Declare all variables
     var i, tabcontent, tablinks1, tablinks2;
   
@@ -23,10 +23,10 @@ function openCity(evt, cityName) {
     }
   
     // Show the current tab, and add an "active" class to the button that opened the tab
-    document.getElementById(cityName).style.display = "block";
+    document.getElementById(tab).style.display = "block";
     
  if(evt.currentTarget.className == "tablinks1") {
-            document.getElementsByClassName("employeesInfo1")[0].style.display = "block";
+    document.getElementsByClassName("employeesInfo1")[0].style.display = "block";
  } else {
     document.getElementsByClassName("employeesInfo2")[0].style.display = "block";
  }

@@ -19,24 +19,6 @@
 .addRecord {
     top: 787px;
     bottom: 200px;
-   /* Auto layout */
-
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 18px 60px;
-    gap: 20px;
-
-    position: absolute;
-    width: 387px;
-    height: 60px;
-    left: calc(50% - 387px/2 - 0.5px);
-    top: 787px;
-
-    background: #62A1EB;
-    border-radius: 8px; */
-
 }
 
 .recordsList {
@@ -88,7 +70,6 @@ p {
     background: #62A1EB;
     border-radius: 8px;
     padding: 0;
-    border: none;
     border: none;
 }
 
