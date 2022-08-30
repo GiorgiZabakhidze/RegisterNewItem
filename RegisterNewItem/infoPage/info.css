@@ -75,7 +75,7 @@
     position: absolute;
     width: 195px;
     height: 76px;
-    margin-left: 516px;;
+    left: calc(50% - 195px/2);
     top: 175px;
     font-family: 'Helvetica Neue';
     font-style: normal;
@@ -98,7 +98,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 18px 60px;
-    margin-left: 496px;
+    left: calc(50% - 233px/2);
     color: #ffffff;
     position: absolute;
     width: 233px;
@@ -134,10 +134,10 @@
 .photoPlace {
     box-sizing: border-box;
     position: absolute;
+    vertical-align: middle;
     width: 878px;
     height: 423px;
-    left: 174px;
-    right: 174px;
+    left: calc(50% - 878px/2);
     top: 68px;
 
     background: #F7F7F7;
