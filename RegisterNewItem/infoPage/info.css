@@ -146,3 +146,94 @@
     border: 2px dashed #4386A9;
     border-radius: 18px;
 }
+
+#laptopNameLabel {
+    width: 407px;
+    height: 21px;
+    left: calc(50% - 878px/2);
+    top: 541px;
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height, or 117% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#laptopName {
+    position: absolute;
+    height: 21px;
+    left: calc(50% - 878px/2 + 16px);
+    width: 375px;
+    top: 589px;
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height, or 131% */
+
+    display: flex;
+
+    border: 2px solid #ffffff;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#laptopNameHint {
+    width: 407px;
+    height: 21px;
+    left: calc(50% - 878px/2);
+    top: 638px;
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+
+    /* შავი/500 */
+
+    color: #2E2E2E;
+
+
+    /* Inside auto layout */
+
+    
+}
+
+.laptopNameInputBorder {
+    box-sizing: border-box;
+    position: absolute;
+    width: 407px;
+    height: 55px;
+    left: calc(50% - 878px/2);
+    top: 68px;
+
+    background: #F7F7F7;
+    /* ლურჯი/700 */
+
+    border: 2px dashed #4386A9;
+    border-radius: 18px;
+}
